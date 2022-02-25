@@ -1,6 +1,7 @@
 def login():
     username = tb1.get()
     password = tb2.get()
+    x
     if username == "admin" and password == "123" :
         messagebox.showinfo("ผลลัพธิ์","ถูกต้อง!")
     else :
